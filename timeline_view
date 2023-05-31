@@ -11,6 +11,8 @@ describe('Automating Airtable site',()=>{
         
         //Click on create new button
         cy.findByRole('button',{name:"Create new"}).click()
+        cy.findByRole('button',{name:"Create new"}).click()
+        
 
         //Verify "Name your interface" text
         cy.findByRole('heading',{name:"Name your interface"}).should('be.visible')
