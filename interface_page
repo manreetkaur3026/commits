@@ -10,6 +10,7 @@ describe('airtable', () => {
               cy.get('#emailLogin').type('pihoitraureipoi-7422@yopmail.com');
       
               // Click on the "Continue" button
+              
               cy.get('.pointer').click();
             }
         
